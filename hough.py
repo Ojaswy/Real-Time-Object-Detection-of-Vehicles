@@ -52,6 +52,6 @@ color_edges = np.dstack((edges, edges, edges))
 lines_edges = cv2.addWeighted(color_edges, 0.8, line_image, 1, 0) 
 imgplot = plt.imshow(lines_edges)
 
-imgplot.savefig('lol.png')
+imgplot.savefig('hough.png')
 
 
