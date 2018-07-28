@@ -1,7 +1,7 @@
 foregroundDetector = vision.ForegroundDetector('NumGaussians', 3, ...
     'NumTrainingFrames', 50);
 
-videoReader = vision.VideoFileReader('C:\Users\mohan\Documents\CarND-LaneLines-P1-master\cars2.mp4');
+videoReader = vision.VideoFileReader('C:/Users/Dell/Desktop/Vehicle Detection/cars.jpg');
 for i = 1:150
     frame = step(videoReader); % read the next video frame
     foreground = step(foregroundDetector, frame);
