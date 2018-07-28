@@ -1,4 +1,4 @@
-RGB = imread('C:\Users\Desktop\Vehicle Detection\cars.jpg');
+RGB = imread('C:/Users/Dell/Desktop/Vehicle Detection/cars.jpg');
 imshow(RGB);
 I = rgb2gray(RGB);
 [Gmag, Gdir] = imgradient(I,'prewitt');
