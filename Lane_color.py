@@ -12,11 +12,7 @@ color_select = np.copy(image)
 line_image = np.copy(image)
 
 # Define color selection criteria
-red_threshold = 200
-green_threshold = 200
-blue_threshold = 200
-
-rgb_threshold = [red_threshold, green_threshold, blue_threshold]
+rgb_threshold = [200,200,200]
 left_bottom = [0, 539]
 right_bottom = [900, 539]
 apex = [475, 320]
