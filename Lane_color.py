@@ -11,7 +11,7 @@ xsize = image.shape[1]
 color_select = np.copy(image)
 line_image = np.copy(image)
 
-# Define color selection criteria
+# Define color selection criterion
 rgb_threshold = [200,200,200]
 left_bottom = [0, 539]
 right_bottom = [900, 539]
