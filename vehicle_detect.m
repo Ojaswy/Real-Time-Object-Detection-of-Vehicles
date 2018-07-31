@@ -1,7 +1,8 @@
 foregroundDetector = vision.ForegroundDetector('NumGaussians', 3, ...
     'NumTrainingFrames', 50);
 
-videoReader = vision.VideoFileReader('C:/Users/Dell/Desktop/Vehicle Detection/test.jpg');
+videoReader = vision.VideoFileReader('C:/Users/Dell/Desktop/Vehicle Detection/cars.mp4');
+#insert path of the videofile above
 for i = 1:150
     frame = step(videoReader); % read the next video frame
     foreground = step(foregroundDetector, frame);
@@ -39,9 +40,9 @@ while ~isDone(videoReader)
     bbox = step(blobAnalysis, filteredForeground);
 
     % Draw bounding boxes around the detected cars
-    result = insertShape(frame, 'Rectangle', bbox, 'Color', 'green');
+    result = insertShape(frame, 'Rectangle', bbox, 'Color', 'pink');
 
-    % Display the number of cars found in the video frame
+    % Display the number of cars found in a video frame
     numCars = size(bbox, 1);
     result = insertText(result, [10 10], numCars, 'BoxOpacity', 1, ...
         'FontSize', 14);
