@@ -50,4 +50,4 @@ while ~isDone(videoReader)
 
     step(videoPlayer, result);  % display the results
 end
-release(videoReader); % close the video file
+release(videoReader); % closes the video file
