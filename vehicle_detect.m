@@ -4,7 +4,8 @@ foregroundDetector = vision.ForegroundDetector('NumGaussians', 3, ...
 videoReader = vision.VideoFileReader('C:/Users/Dell/Desktop/Vehicle Detection/cars.mp4');
 #insert path of the videofile above
 for i = 1:150
-    frame = step(videoReader); % read the next video frame
+    frame = step(videoReader); 
+    % to read the next video frame
     foreground = step(foregroundDetector, frame);
 end
 figure; imshow(frame); title('Video Frame');
