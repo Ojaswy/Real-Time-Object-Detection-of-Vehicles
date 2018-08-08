@@ -33,7 +33,7 @@ while ~isDone(videoReader)
     % Detect the foreground in the current video frame
     foreground = step(foregroundDetector, frame);
     
-    % Use morphological opening to remove noise in the foreground
+    % Using morphological opening to remove noise in the foreground
     filteredForeground = imopen(foreground, se);
     
     % Detect the connected components with the specified minimum area, and
