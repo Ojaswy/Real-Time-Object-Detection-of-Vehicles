@@ -26,6 +26,7 @@ color_thresholds = (image[:,:,0] < rgb_threshold[0]) | \
                     (image[:,:,1] < rgb_threshold[1]) | \
                     (image[:,:,2] < rgb_threshold[2])
 
+# Find the region inside the lines
 XX, YY = np.meshgrid(np.arange(0, xsize), np.arange(0, ysize))
 region_thresholds = (YY > (XX*fit_left[0] + fit_left[1])) & \
                     (YY > (XX*fit_right[0] + fit_right[1])) & \
