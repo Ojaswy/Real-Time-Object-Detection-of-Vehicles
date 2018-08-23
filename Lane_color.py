@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
 
+# Reading the image
 image = mpimg.imread('test.jpg')
 
 # Grab the x and y size and make a copy of the image
