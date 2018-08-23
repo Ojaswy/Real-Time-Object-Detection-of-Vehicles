@@ -4,6 +4,7 @@ import numpy as np
 
 # Reading the image
 image = mpimg.imread('test.jpg')
+#No need to mention path if in the same directory
 
 # Grab the x and y size and make a copy of the image
 ysize = image.shape[0]
