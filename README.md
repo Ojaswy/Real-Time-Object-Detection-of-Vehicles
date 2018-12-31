@@ -6,15 +6,13 @@ This project had been done using python 2.7 and MATLAB's [Computer Vision Toolbo
 ## Applications include:
 Advance Driver-Assisstance Systems(ADAS)
 
-a) [Smart Camera](https://www.renesas.com/in/en/solutions/automotive/adas/smart-camera.html)
+a)  [Smart Camera](https://www.renesas.com/in/en/solutions/automotive/adas/smart-camera.html)
 
-b) [Surround View](https://www.renesas.com/in/en/solutions/automotive/adas/surround-view.html)
+b)  [Surround View](https://www.renesas.com/in/en/solutions/automotive/adas/surround-view.html)
 
-c) [Radar Sensing](https://www.renesas.com/in/en/solutions/automotive/adas/radar-sensing.html)
+c)  [Radar Sensing](https://www.renesas.com/in/en/solutions/automotive/adas/radar-sensing.html)
 
-d) [Cognitive Computing](https://www.renesas.com/in/en/solutions/automotive/adas/cognitive-computing.html)
-
-e) []()
+d)  [Cognitive Computing](https://www.renesas.com/in/en/solutions/automotive/adas/cognitive-computing.html)
 
 
 If you are interested you can read about NVIDIA's reasearch [here](https://www.nvidia.com/en-us/self-driving-cars/adas/)
