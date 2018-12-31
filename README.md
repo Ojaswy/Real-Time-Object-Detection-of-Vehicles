@@ -5,15 +5,16 @@ This project had been done using python 2.7 and MATLAB's [Computer Vision Toolbo
 
 ## Applications include:
 Advance Driver-Assisstance Systems(ADAS)
-a)[Smart Camera](https://www.renesas.com/in/en/solutions/automotive/adas/smart-camera.html)
 
-b)[Surround View](https://www.renesas.com/in/en/solutions/automotive/adas/surround-view.html)
+a) [Smart Camera](https://www.renesas.com/in/en/solutions/automotive/adas/smart-camera.html)
 
-c)[Radar Sensing](https://www.renesas.com/in/en/solutions/automotive/adas/radar-sensing.html)
+b) [Surround View](https://www.renesas.com/in/en/solutions/automotive/adas/surround-view.html)
 
-c)[]()
+c) [Radar Sensing](https://www.renesas.com/in/en/solutions/automotive/adas/radar-sensing.html)
 
-e)[]()
+d) []()
+
+e) []()
 
 
 If you are interested you can read about NVIDIA's reasearch [here](https://www.nvidia.com/en-us/self-driving-cars/adas/)
