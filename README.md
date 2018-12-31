@@ -12,7 +12,7 @@ b) [Surround View](https://www.renesas.com/in/en/solutions/automotive/adas/surro
 
 c) [Radar Sensing](https://www.renesas.com/in/en/solutions/automotive/adas/radar-sensing.html)
 
-d) []()
+d) [Cognitive Computing](https://www.renesas.com/in/en/solutions/automotive/adas/cognitive-computing.html)
 
 e) []()
 
